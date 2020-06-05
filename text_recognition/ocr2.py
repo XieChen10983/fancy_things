@@ -175,7 +175,7 @@ def solve():
         with open(file, 'rb') as File:
             Img = File.read()
         Result = client.basicAccurate(Img)
-        print(Result)
+        # print(Result)
         time.sleep(1)
         Num = Result["words_result_num"]
         if not Num == 0:
